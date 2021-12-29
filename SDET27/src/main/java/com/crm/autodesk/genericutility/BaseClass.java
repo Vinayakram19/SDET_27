@@ -18,9 +18,8 @@ import com.crm.autodisk.ObjectRepository.LoginPage;
 
 public class BaseClass {
 
-private static final String String = null;
-//	public static final WebDriver sdriver = null;
-	public static WebDriver sdriver;
+
+	
 		/*Object Creation for Lib*/
 		public JavaUtility jLib = new JavaUtility();
 		public WebDriverUtility wLib = new WebDriverUtility();
@@ -28,6 +27,7 @@ private static final String String = null;
 		public ExcelUtility eLib = new ExcelUtility();
 		public DataBaseUtility dLib = new DataBaseUtility();
 		public WebDriver driver;
+		public static WebDriver sdriver;
 	
 	
 	@BeforeSuite(groups = {"SmokeSuite","RegressionSuite"})
